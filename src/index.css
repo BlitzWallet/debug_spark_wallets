@@ -1,0 +1,79 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #262626;
+  background-color: #ebebeb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  padding: 20px;
+}
+.debugContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.debugContainer .pageTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.debugContainer .inputsContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.debugContainer .seedInputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.debugContainer .textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  resize: none;
+}
+.debugContainer .initializeSparkBTN {
+  padding: 10px;
+  background-color: #0375f6;
+  border: unset;
+  border-radius: 8px;
+  color: white;
+}
+
+.debugContainer .itemHeader {
+  margin-bottom: 20px;
+}
+
+.debugContainer .errorText {
+  color: red;
+  margin: 10px 0;
+}
+.debugContainer .altBTN {
+  height: 45px;
+  width: 120px;
+  background-color: #ebebeb;
+  border: unset;
+  border-radius: 8px;
+}
